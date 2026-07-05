@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+
+<header>
+
+    <div class="logo">
+        <h1>🎮 GameStore</h1>
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#games">Games</a>
+        <a href="#social">Contact</a>
+        <a href="login.html" class="login">
+            <i class="fa-solid fa-user"></i>
+            Login
+        </a>
+
+    </nav>
+
+    <div class="icons">
+
+        <div class="search">
+
+            <input type="text" id="search" placeholder="Search Game...">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+
+        <a href="cart.html" class="cart">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <span id="count">0</span>
+
+        </a>
+
+    </div>
+
+</header>
+
+<!-- Hero -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>PLAY THE BEST GAMES</h1>
+
+        <p>
+            Buy the newest games with amazing offers.
+        </p>
+
+        <button>Explore Now</button>
+
+    </div>
+
+</section>
+
+<!-- Categories -->
+
+<section class="categories" id="categories">
+
+<h2>Game Categories</h2>
+
+<div class="category-box">
+
+<button onclick="showCategory('all')">All</button>
+
+<button onclick="showCategory('action')">Action</button>
+
+<button onclick="showCategory('sports')">Sports</button>
+
+<button onclick="showCategory('racing')">Racing</button>
+
+<button onclick="showCategory('adventure')">Adventure</button>
+
+<button onclick="showCategory('horror')">Horror</button>
+
+<button onclick="showCategory('sandbox')">Sandbox</button>
+
+</div>
+
+</section>
+
+<!-- Products -->
+
+<section class="products" id="games">
+
+<!-- Action -->
+
+<div class="card action">
+
+<img src="images/gta.jpg">
+
+<h3>GTA V</h3>
+
+<p>$39.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card action">
+
+<img src="images/cod.jpg">
+
+<h3>Call Of Duty</h3>
+
+<p>$69.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card action">
+
+<img src="images/spiderman.jpg">
+
+<h3>Spider-Man 2</h3>
+
+<p>$69.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<!-- Sports -->
+
+<div class="card sports">
+
+<img src="images/fc26.jpg">
+
+<h3>EA FC 26</h3>
+
+<p>$59.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card sports">
+
+<img src="images/nba.jpg">
+
+<h3>NBA 2K25</h3>
+
+<p>$59.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<!-- Racing -->
+
+<div class="card racing">
+
+<img src="images/forza.jpg">
+
+<h3>Forza Horizon 5</h3>
+
+<p>$59.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card racing">
+
+<img src="images/nfs.jpg">
+
+<h3>Need For Speed</h3>
+
+<p>$49.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<!-- Adventure -->
+
+<div class="card adventure">
+
+<img src="images/rdr2.jpg">
+
+<h3>Red Dead Redemption 2</h3>
+
+<p>$49.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card adventure">
+
+<img src="images/witcher3.jpg">
+
+<h3>The Witcher 3</h3>
+
+<p>$39.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<!-- Horror -->
+
+<div class="card horror">
+
+<img src="images/re4.jpg">
+
+<h3>Resident Evil 4</h3>
+
+<p>$49.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card horror">
+
+<img src="images/outlast.jpg">
+
+<h3>Outlast</h3>
+
+<p>$29.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<!-- Sandbox -->
+
+<div class="card sandbox">
+
+<img src="images/minecraft.jpg">
+
+<h3>Minecraft</h3>
+
+<p>$19.99</p>
+
+<button class="buy">Buy Now</button>
+
+</div>
+
+<div class="card sandbox">
+
+<img src="images/roblox.jpg">
+
+<h3>Roblox</h3>
+
+<p>Free</p>
+
+<button class="buy">Play</button>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<h3>Game Store</h3>
+
+<p>Your Favorite Gaming Shop</p>
+
+<div class="social">
+
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-discord"></i>
+<i class="fa-brands fa-youtube"></i>
+
+</div>
+
+<p>© 2026 All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="cart.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+
+    <h1>🛒 Shopping Cart</h1>
+
+    <a href="index.html" class="back">
+        <i class="fa-solid fa-arrow-left"></i>
+        Continue Shopping
+    </a>
+
+</header>
+
+<section class="cart-container">
+
+    <div id="cartItems">
+
+        <!-- Products will appear here -->
+
+    </div>
+
+    <div class="summary">
+
+        <h2>Order Summary</h2>
+
+        <hr>
+
+        <div class="row">
+            <span>Items</span>
+            <span id="itemsCount">0</span>
+        </div>
+
+        <div class="row">
+            <span>Total</span>
+            <span id="totalPrice">$0.00</span>
+        </div>
+
+        <button id="checkout">
+            Checkout
+        </button>
+
+        <button id="clear">
+            Clear Cart
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Game Store</h3>
+
+    <p>Thank you for shopping with us ❤️</p>
+
+    <div class="social">
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-youtube"></i>
+
+    </div>
+
+    <p>© 2026 Game Store. All Rights Reserved.</p>
+
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
