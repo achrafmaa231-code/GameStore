@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://achrafmaa231-code.github.io/GameStore/sitemap.xml
